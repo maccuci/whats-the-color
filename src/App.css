@@ -1,0 +1,44 @@
+body,
+html,
+#root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+button+button {
+    margin-left: 30px;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.guess {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 8px;
+}
+
+.wrong {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.correct {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}
